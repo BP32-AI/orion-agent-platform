@@ -1,7 +1,5 @@
 # app/services/execution_service.py
 
-
-
 from app.common.constants import (
     WORKFLOW_PENDING,
 )
@@ -18,7 +16,6 @@ from app.schemas.execution import (
 
 
 class ExecutionService:
-
     def __init__(
         self,
         repository: ExecutionRepository

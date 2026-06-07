@@ -1,11 +1,9 @@
 # app/services/channel_service.py
 
 from uuid import UUID
-
 from app.db.models.channel import Channel
 from app.repositories.channel_repository import ChannelRepository
 from app.schemas.channel import ChannelCreate, ChannelUpdate
-
 
 class ChannelService:
 

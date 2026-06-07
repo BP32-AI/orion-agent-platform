@@ -1,10 +1,8 @@
 # app/services/monitoring_service.py
 
-
 from app.repositories.log_repository import (
     LogRepository,
 )
-
 class MonitoringService:
 
     def __init__(
